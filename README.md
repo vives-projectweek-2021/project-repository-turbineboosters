@@ -34,4 +34,4 @@ The LoRa module (RN2483A) receives this data and sends it peer-to-peer to anothe
 
 ![afbeelding](https://user-images.githubusercontent.com/71695433/117445889-96087500-af3b-11eb-8d13-f27b62f94ad6.png)
 
-We mount a bicycle wheel on the shaft of our motor, to which we mount 8 PVC-blades via 3D-printed coupling pieces.
+We mounted a bicycle wheel on the shaft of our motor, to which we attached 8 PVC-blades via 3D-printed coupling pieces.
