@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  grafana:
+    image: grafana/grafana
+    volumes:
+      - grafana-storage:/var/lib/grafana
+    ports:
+      - "80:3000"
