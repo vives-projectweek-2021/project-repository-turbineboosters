@@ -35,6 +35,8 @@ First we wanted to send the data over bleutooth low energy that was on the contr
 
 The data that we receive over bleutooth is than but into an influxdb database. This data is than visualized with the use of grafana.
 
+![afbeelding](https://user-images.githubusercontent.com/71642918/117447221-812ce100-af3d-11eb-8843-8e71a5884f23.png)
+
 ## Mechanical design
 
 ![afbeelding](https://user-images.githubusercontent.com/71695433/117445889-96087500-af3b-11eb-8d13-f27b62f94ad6.png)
