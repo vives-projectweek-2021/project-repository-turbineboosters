@@ -1027,7 +1027,7 @@
   (symbol (lib_id "power:GND") (at 181.61 93.98 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 97826a77-3d0a-444d-981b-1a6d34794f58)
-    (property "Reference" "#PWR?" (id 0) (at 181.61 100.33 0)
+    (property "Reference" "#PWR0110" (id 0) (at 181.61 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 181.61 99.06 0))
@@ -1141,7 +1141,7 @@
   (symbol (lib_id "Device:R") (at 181.61 78.74 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a8a95db3-af64-4c92-bf63-9d85256c307a)
-    (property "Reference" "R?" (id 0) (at 184.15 78.1049 0)
+    (property "Reference" "R5" (id 0) (at 184.15 78.1049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330R" (id 1) (at 184.15 80.6449 0)
@@ -1312,13 +1312,13 @@
   (symbol (lib_id "Device:LED") (at 181.61 90.17 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 098d4f14-f726-494d-93b8-ff664675bc95)
-    (property "Reference" "D?" (id 0) (at 185.42 89.7254 90)
+    (property "Reference" "D7" (id 0) (at 185.42 89.7254 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED" (id 1) (at 185.42 92.2654 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 181.61 90.17 0)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (id 2) (at 181.61 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 181.61 90.17 0)
@@ -1498,7 +1498,7 @@
       (reference "#PWR0109") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/97826a77-3d0a-444d-981b-1a6d34794f58"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
     (path "/a2f528ce-c0cc-4689-9cd4-dc08fcb6eb45"
       (reference "A1") (unit 1) (value "Arduino_UNO_R2") (footprint "Module:Arduino_UNO_R2")
@@ -1528,7 +1528,7 @@
       (reference "D6") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/098d4f14-f726-494d-93b8-ff664675bc95"
-      (reference "D?") (unit 1) (value "LED") (footprint "")
+      (reference "D7") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/39ca8f64-7655-4ad7-bc55-e91d44acbcc3"
       (reference "J1") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock:TerminalBlock_bornier-3_P5.08mm")
@@ -1549,7 +1549,7 @@
       (reference "R4") (unit 1) (value "8.2K") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/a8a95db3-af64-4c92-bf63-9d85256c307a"
-      (reference "R?") (unit 1) (value "330R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R5") (unit 1) (value "330R") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/c3d050bf-a328-40a9-87bb-b026e0e671f9"
       (reference "U1") (unit 1) (value "DHT11") (footprint "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm")
