@@ -1,4 +1,4 @@
-﻿# RN2483_PingPong
+﻿# RN2483_PeerToPeer
  
  This is an example on how to use the RN2483 LoRaWan modem to acheive a secure peer to peer communication.
  
